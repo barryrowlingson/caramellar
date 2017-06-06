@@ -1,0 +1,26 @@
+Package: caramellar
+Title: Fit The CAR Space-time Model
+Version: 0.0.1.0000
+Authors@R: c( person("Barry", "Rowlingson", , "b.rowlingson@gmail.com", role = c("aut", "cre")),
+	   person("Emanuele", "Giorgi", , "e.giorgi@lancaster.ac.uk", role = c("aut")),
+	   person("Alison", "Hale", , "a.c.hale@lancaster.ac.uk", role = c("aut"))
+	    )
+Description: Fits a space-time correlated binomial model with linear covariates.
+Depends:
+    R (>= 3.1.3),
+    spam,
+    truncnorm,
+    lubridate,
+    deldir,
+    igraph,
+    ggplot2,
+    FNN,
+    reshape2,
+    qwraps2,
+    gridExtra
+Imports:
+    Matrix
+SystemRequirements: GNU make
+License: MIT + file LICENSE
+LazyData: true
+RoxygenNote: 5.0.1
